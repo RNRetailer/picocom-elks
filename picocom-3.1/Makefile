@@ -84,11 +84,11 @@ CPPFLAGS += -DUSE_FLOCK
 #CPPFLAGS += -DUUCP_LOCK_DIR=\"$(UUCP_LOCK_DIR)\"
 
 ## Comment these out to disable "linenoise"-library support
-HISTFILE = .picocom_history
-CPPFLAGS += -DHISTFILE=\"$(HISTFILE)\" \
+#HISTFILE = .picocom_history
+#CPPFLAGS += -DHISTFILE=\"$(HISTFILE)\" \
 	    -DLINENOISE
-OBJS += linenoise-1.0/linenoise.o
-linenoise-1.0/linenoise.o : linenoise-1.0/linenoise.c linenoise-1.0/linenoise.h
+#OBJS += linenoise-1.0/linenoise.o
+#linenoise-1.0/linenoise.o : linenoise-1.0/linenoise.c linenoise-1.0/linenoise.h
 
 ## Comment this in to enable (force) custom baudrate support
 ## even on systems not enabled by default.

@@ -38,3 +38,4 @@ typedef __sighandler_t _sig_func_ptr;
 #define	LOCK_NB	4	/* Don't block when locking.  */
 #define CRTSCTS 020000000000 /* Flow control.  */
 #define IXANY	0004000  /* Enable any character to restart output.  */
+#define _POSIX_PATH_MAX 256
